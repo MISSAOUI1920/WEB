@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recherche par année</title>
+  </head>
+  <body>
+    <h1>Recherche par année</h1>
+    <form>
+      <label for="annee"></label>
+      <input type="text" id="annee" name="annee">
+      <input type="button" value="Rechercher" onclick="rechercherParAnnee()">
+    </form>
+    
+    <table id="resultats">
+      <thead>
+        <tr>
+          <th>Titre</th>
+          <th>Type</th>
+          <th>Auteur</th>
+          <th>Année</th>
+          <th>Mots-clés</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="s.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="search_annee.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<bibliotheque>
+	
+	<livre>
+	
+	<titre>AUTOPARC: application web et mobile de gestion du parc automobile.</titre>
+	
+<type>Rapport de PFE</type>
+	
+<auteur>Sabrine boubaker Ettouil,Achraf Mtibaa, Wiem Elleuch</auteur>
+	
+<annee>2017</annee>
+	
+<mots_cles>WEB,Mobile,AUTOPARC</mots_cles>
+	
+</livre><livre>
+	
+	<titre>Algorithmique</titre>
+	
+<type>livre</type>
+	
+<auteur>Jean-Michel L&#233;ry,Fr&#233;d&#233;ric Jacquenod</auteur>
+	
+<annee>2013</annee>
+	
+<mots_cles>Algorithmique,C,C++,JAVA</mots_cles>
+	
+</livre><livre>
+	
+	<titre>Cours et exercices corrig&#233;s Math&#233;matiques premi&#232;re ann&#233;e</titre>
+	
+<type>livre</type>
+	
+<auteur>Jamil Aouidi</auteur>
+	
+<annee>2012</annee>
+	
+<mots_cles>Nombre r&#233;el , int&#233;gration , Equation diff&#233;rentielle, Analyse</mots_cles>
+	
+</livre><livre>
+	
+	<titre>Analyse de Trafic r&#233;seaux</titre>
+	
+<type>Rapport de PFE</type>
+	
+<auteur>Wafa Boujelben, Bassem  Ben hamed</auteur>
+	
+<annee>2021</annee>
+	
+<mots_cles>Big Data, Collecte donn&#233;es r&#233;seaux, Analyse de Traffic, Traitement en temps r&#233;el, Wireshark, Pyspark, Hadoop-HDFS</mots_cles>
+	
+</livre></bibliotheque>

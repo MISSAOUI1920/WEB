@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ajouter un livre ou un rapport</title>
+</head>
+<body>
+  <h1>Ajouter un livre ou un rapport</h1>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+  <form action="http://localhost:5000/result" method="post">
+    <label for="titre">Titre :</label>
+    <input type="text" id="titre" name="titre" required><br>
+
+    <label for="auteur">Auteur :</label>
+    <input type="text" id="auteur" name="auteur" required><br>
+
+    <label for="annee">Année :</label>
+    <input type="number" id="annee" name="annee" required>
+
+    <label for="type">Type :</label>
+    <select id="type" name="type">
+      <option value="livre">Livre</option>
+      <option value="Rapport de PFE">Rapport de PFE</option>
+    </select>
+
+    <label for="mots_cles">Mots-clés :</label>
+    <input type="text" id="mots_cles" name="mots_cles"><br>
+
+    <button type="submit">Ajouter le document</button>
+    <input type="reset" value="Réinitialiser le formulaire">
+    <a href="home.html"> <input type="button" value="retour page d'acceuil"></a>
+  </form>
+  
+</body>
+</html>
